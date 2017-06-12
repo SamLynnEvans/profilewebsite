@@ -1,0 +1,449 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height:100%;
+  position:relative;
+  background-color:white;
+}
+
+
+
+.menu {
+
+	position:fixed;
+	width:100%;
+	z-index:10000;
+	height:50px;
+	transition: background-color 400ms linear;
+
+	
+}
+
+
+
+
+.menu.scrolled {
+    background-color: #fff !important;
+  transition: background-color 400ms linear;
+	
+}
+
+#home {
+	margin-bottom:100px;
+}
+
+.mynav {
+	float:right;
+	font-family:'Open Sans Condensed', cursive;
+	margin-right:100px;
+
+
+}
+
+.mynav li {
+	display:inline-block;
+	list-style: none;
+	margin-top:12px;
+}
+
+.active {
+	
+	text-decoration:none;
+	background-color:#e6e6e6 !important;
+	
+}
+
+.menu .mybtn {
+	background-color:transparent;
+	color:#8C374E;
+		font-size:20px;
+		padding: 11px 20px;
+		text-decoration:none;
+
+} 
+
+
+
+.mybtn:hover {
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+
+
+
+
+
+
+
+.jumbotron {
+	background: url(http://www.samlynnevans.com/images/samlesitefinal-min1.png) no-repeat center center fixed;
+	background-size: cover;
+	height:100%;
+	color:#282C34;
+	text-align:center;
+
+
+}
+
+.jumbotron .title {
+	
+margin-left:0;
+ 	margin-top:290px;
+ 	background-color:rgba(255, 255, 255, 0.5);
+ 	border-radius:10px;
+ padding:0;
+ text-align:center;
+ 
+ 	
+
+}
+ .jumbotron .title h1 span {
+ 	font-family: 'Amatic SC', cursive;
+	color:#282C34;
+	font-size:90px;
+ 	text-transform:uppercase;
+ 	border-bottom:5px solid #8C374E;
+ 	text-shadow: 2px 2px #8C374E;
+ 	margin-bottom:0;
+ 	padding-top:5px;
+ 	
+ 	
+ }
+
+ .jumbotron .title p {
+ 	margin-top:-5px;
+ 	padding-bottom:5px;
+ 	font-family:'Open Sans Condensed';
+ 	font-size:20px;
+ }
+
+ .jumbotron .btn:active {
+ 	color:transparent !important;
+ 	background-color:transparent !important;
+background: url(https://cdn4.iconfinder.com/data/icons/dot/256/arrow_down.png) no-repeat center center;
+background-size:40px;
+ }
+
+ .jumbotron .btn {
+ 	color:#282C34;
+ 	border:1px solid #8C374E;
+ 	font-size:20px;
+ 	background-color:white;
+ 	height:60px;
+ 	width:150px;
+ 	font-family:'Open Sans Condensed';
+ 
+ 	
+ 	}
+
+ 	.jumbotron .btn p {
+ 		line-height:60px;
+ 		margin-top:-8px;
+
+ 	}
+
+ .jumbotron .btn:hover {
+ 	color:transparent;
+background: url(https://cdn4.iconfinder.com/data/icons/dot/256/arrow_down.png) no-repeat center center;
+background-size:40px;
+ }
+
+ .jumbotron .btn:visited {
+ 	background-color: white !important;
+ }
+
+
+
+ .clicked {
+ 	background-color:#8C374E !important;
+ 	transition: background-color 200ms linear;
+ }
+
+
+
+.break {
+	background-color:#282C34;
+	height:auto;
+	margin-top:-30px;
+	text-align:center;
+	
+
+}
+
+.break h2 {
+	font-family: 'Amatic SC', serif;
+	font-size:60px;
+	text-transform:uppercase;
+	color:white;
+	vertical-align:middle;
+	padding:60px 30px;
+	
+}
+
+.break p {
+	margin-top:-70px;
+	padding-bottom:50px;
+	color:white;
+	font-family:'Open Sans Condensed', cursive;
+	font-size:22px;
+	
+}
+
+.supporting {
+
+	background-color:white;
+	height:auto;
+	color:#282C34;
+	text-align:center;
+	
+	
+	
+
+}
+
+.supporting .container {
+	border-bottom:1px solid #8C374E;
+	height:600px;
+}
+
+.supporting .container .row {
+	margin-top:110px;
+	margin-bottom:150px;
+	opacity:0.5;
+	transition: opacity 400ms linear;
+	
+}
+
+
+
+.rowHL {
+	opacity:1 !important;
+	transition: opacity 400ms linear;
+}
+
+
+
+.col h2 {
+	margin-top:80px;
+	font-family: 'Amatic SC', serif;
+
+}
+
+
+.supporting img {
+	
+	width:450px;
+	height:auto;
+	border:5px solid #8C374E;
+	border-radius: 20px;
+	
+
+}
+
+
+.supporting p {
+	padding-top:15px;
+font-size:18px;
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.weekday {
+	height:600px;
+	text-align:center;
+}
+
+.weekday h2 {
+	font-family: Amatic SC;
+}
+
+.weekday img {
+	width:100px;
+	height:100px;
+	
+}
+.about {
+	background-color:#8C374E;
+	color:white;
+	text-align:center;
+	height:100%;
+}
+
+.about h1 {
+	font-family: 'Amatic SC', serif;
+	font-size:100px;
+	margin-top:80px;
+}
+
+.about p {
+	margin-top:20px;
+	padding-top:15px;
+font-size:25px;
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#note {
+	float:right;
+	font-style:italic;
+	font-size:14px;
+	
+}
+
+.footer {
+	height:140px;
+	background-color:#282C34;
+	color:white;
+}
+
+.footer ul {
+	float:left;
+}
+
+.footer li {
+	list-style:none;
+	font-family:'Open Sans Condensed';
+}
+
+@media screen and (min-width:991px) {
+	.supporting .container:nth-child(odd) .row {
+	margin-left:-90px;
+	
+}
+
+	.supporting .container:nth-child(odd) .col:nth-child(2) {
+	margin-left:70px;
+}
+
+.supporting .container:nth-child(even) .row {
+	margin-left:-80px;
+}
+
+.supporting .container:nth-child(even) img {
+	margin-left:-50px;
+}
+} 
+
+@media screen and (max-width:1200px) {
+
+	.supporting .container:nth-child(even) .row {
+	margin-left:-90px;
+}
+
+}
+
+
+@media screen and (max-width:991px) {
+
+
+		.supporting .container {
+
+		height:auto;
+		
+	}
+
+		.driverless h2 {
+
+		margin-top:-20px;
+	}
+	.driverless p {
+		padding-bottom:50px;
+	}
+	.supporting .row {
+		margin-bottom:70px !important;
+		margin-top:70px !important;
+		margin-left:0 !important;
+		margin-right:0 !important;		
+	}
+
+
+.jumbotron .title {
+	margin-top:230px !important;
+}
+	
+}
+
+@media screen and (max-width:772px) {
+		.supporting .container {
+		width:80%;
+	}
+
+ 	.about p {
+ 		font-size:20px;
+ 	}
+
+ 	.supporting img {
+ 		width:350px;
+ 	}
+}
+
+
+@media screen and (max-height:600px) {
+
+	.jumbotron .title {
+	margin-top:150px !important;
+}
+
+ .jumbotron {
+ 	height:600px;
+ }
+
+ .about {
+	height:600px;
+ }
+
+}
+
+@media screen and (max-width:500px) {
+
+	.jumbotron .title {
+	margin-top:150px !important;
+}
+
+	.menu {
+		width:100%;
+	}
+	.mynav {
+		float:left !important;
+		text-align:center;
+		margin-left:-20px;
+		width:100%;
+		height:50px;
+	}
+
+	
+
+	.supporting img {
+		width:250px;
+	}
+
+}
+
+@media only screen and (max-width:500px) {
+
+	.jumbotron .title {
+	margin-top:300px !important;
+}
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
