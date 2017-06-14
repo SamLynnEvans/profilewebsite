@@ -20,12 +20,10 @@ $(document).ready(function(){
     for( var i=0; i < len; i++ )
         text += charset.charAt(Math.floor(Math.random() * charset.length));
 
-    return text;
+   
 }
 
-  var stringGen1v = $stringGen1(1).val();
-
-  alert (stringGen1v);
+ 
 
 $('#start').click(function(){
 	$('#1').append('<p>' + stringGen1(1) + '</p>')
