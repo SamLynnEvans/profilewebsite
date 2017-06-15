@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$('img').click(function(){
 		var name = $(this).attr('id');
 		$('.prepended').remove();
@@ -10,9 +11,14 @@ $(document).ready(function(){
 		$(this).effect('bounce', {times: 4}, 400);
 	});
 
-	$('#Coriander').click(function(){
+		$('#Cumin').click(function(){
+		$(this).effect('bounce', {times: 4}, 400);
+	});
+
+	$('#Cinnamon').click(function(){
 		$(this).animate({ top: '+=50px'}, 500);
+	});
+
+
+
 	})
-	
-	})
-})

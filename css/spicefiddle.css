@@ -1,25 +1,11 @@
 body {
 	text-align:center;
 }
-table {
 
-	position:absolute;
-	top:70px;
-	bottom:0;
-	left:0;
-	right:0;
-	left:0;
-	margin:auto;
-	width:600px;
-}
 
 img {
 	width:160px;
 	height:160px;
+	padding:25px 25px;
 }
 
-td {
-	width:200px;
-	height:200px;
-	
-}
