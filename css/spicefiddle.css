@@ -2,10 +2,56 @@ body {
 	text-align:center;
 }
 
-
 img {
+	position:relative;
 	width:160px;
 	height:160px;
-	padding:25px 25px;
+	padding:0 25px;
+}
+
+.row{
+	height:200px;
+ }
+p {
+	margin-top:-1px;
+	display:none;
+	color:red;
+}
+
+#Chillies {
+	z-index:1000;
+}
+
+.rotated {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg); 
+  -moz-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  -o-transform: rotate(360deg); 
+  transition: transform 400ms linear;
+}
+
+.c-rotated {
+  transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg); 
+  -moz-transform: rotate(-360deg); 
+  -webkit-transform: rotate(-360deg); 
+  -o-transform: rotate(-360deg); 
+  transition: transform 400ms linear;
+}
+
+.large {
+	height:300px;
+	width:300px;
+	transition: height 400ms linear;
+	transition: width 400ms linear;
+	padding:0;
+	z-index:1001;
+
+
+}
+
+.selected {
+	background: #F39814; color: white;
 }
 

@@ -1,0 +1,40 @@
+body {
+	background-color:blue;
+	text-align:center;
+}
+
+table {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	background-color: red;
+	height:400px;
+	width:400px;
+
+}
+
+td {
+
+	width:100px;
+	height:100px;
+}
+
+img {
+	height:100px;
+	width:100px;
+	margin-bottom:-5px;
+
+}
+
+.invisible {
+	opacity:0;
+}
+
+.visible {
+	opacity: 100 !important;
+}
+
+
