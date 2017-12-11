@@ -9,17 +9,45 @@ $(document).ready(function(){
 
     if(clicks % 2 == 0){
     	$(this).removeClass('invisible');
-        alert('1')
+    	var x = $(this).attr('id');
+    	$('.test').append(x);
+    	
     }else{
     	$(this).removeClass('invisible');
-        alert('2')
-    }
+    	$('img').addClass('invisible');
+    	var y = $(this).attr('id');
+    	$('.test2').append(y);
+
+
+    	}
+
     ++clicks;
 
 
 
 });
+	$('.test').click(function(){
+		var p = $(this).html();
+		alert(p);
+		
 
+	})
+
+	$('.test2').click(function(){
+		var t = $(this).html();
+		alert(t);
+		
+
+	})
+
+	if (p == t) { 
+		var elem = document.getElementById(p);
+		$(elem).addClass('visible');
+
+	} 
+
+var test2 = document.getElementById('pie');
+	test2.addClass('visible');
 });
 
 

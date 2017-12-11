@@ -3,6 +3,19 @@ body {
 	text-align:center;
 }
 
+.test {
+	background-color: white;
+	width: 20px;
+	height: 20px;
+}
+
+.test2 {
+	background-color: white;
+	margin-top:20px;
+	width: 20px;
+	height: 20px;
+}
+
 table {
 	position:absolute;
 	top:0;
@@ -34,6 +47,8 @@ img {
 }
 
 .visible {
+	height:50px !important;
+	width:50px !important;
 	opacity: 100 !important;
 }
 
